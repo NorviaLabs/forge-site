@@ -14,8 +14,16 @@
       content="Go from idea to verified code without leaving your terminal."
     />
     <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Forge" />
     <meta property="og:url" content="https://forge.norvialabs.com/" />
     <meta property="og:image" content="https://norvialabs.com/assets/og.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Forge — Build with focus" />
+    <meta
+      name="twitter:description"
+      content="Go from idea to verified code without leaving your terminal."
+    />
+    <meta name="twitter:image" content="https://norvialabs.com/assets/og.png" />
     <title>Forge — Build with focus</title>
     <link rel="canonical" href="https://forge.norvialabs.com/" />
     <link rel="icon" href="https://norvialabs.com/assets/favicon.png" />
@@ -27,6 +35,42 @@
     />
     <link rel="stylesheet" href="styles.css" />
     <script src="script.js" defer></script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "SoftwareApplication",
+            "@id": "https://forge.norvialabs.com/#software",
+            "name": "Forge",
+            "url": "https://forge.norvialabs.com/",
+            "description": "Forge is an open-source AI coding agent, editor, and shell in one focused terminal workspace.",
+            "codeRepository": "https://github.com/NorviaLabs/forge",
+            "applicationCategory": "DeveloperApplication",
+            "operatingSystem": "macOS, Linux, Windows",
+            "license": "https://opensource.org/licenses/MIT",
+            "programmingLanguage": "Rust",
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "USD"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Norvia Labs",
+              "url": "https://norvialabs.com/"
+            }
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://forge.norvialabs.com/#website",
+            "name": "Forge",
+            "url": "https://forge.norvialabs.com/",
+            "about": { "@id": "https://forge.norvialabs.com/#software" }
+          }
+        ]
+      }
+    </script>
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
