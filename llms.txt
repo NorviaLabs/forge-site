@@ -1,0 +1,18 @@
+# Forge
+
+> Forge is an open-source AI coding agent, editor, and shell unified in one focused, keyboard-driven terminal workspace. Written in Rust. Currently in alpha — review every approval prompt.
+
+Forge keeps the agent, your code, the shell, and every decision in one coherent workspace: no editor hopping, no lost context, no invisible changes. Inspect the code, guide the agent, review each diff, approve commands, and verify the result — all from the keyboard. Connect OpenAI, Anthropic, xAI, Codex, OpenCode, or local Ollama models, and switch providers from inside Forge.
+
+Built in the open by [Norvia Labs](https://norvialabs.com/).
+
+## Docs
+
+- [GitHub repository](https://github.com/NorviaLabs/forge): Source code and issue tracker
+- [Install guide](https://github.com/NorviaLabs/forge#install): Installation instructions for macOS, Linux, and Windows
+- [Releases](https://github.com/NorviaLabs/forge/releases): Version history and release notes
+- [MIT License](https://github.com/NorviaLabs/forge/blob/main/LICENSE): License terms
+
+## Optional
+
+- [Norvia Labs](https://norvialabs.com/): The open-source experiment lab building Forge and related tools
